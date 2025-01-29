@@ -3,7 +3,7 @@ library(ompr)
 library(ompr.roi)
 library(ROI.plugin.glpk)
 library(ggplot2)
-library(tidyverse)
+library(dplyr)
 
 # Definir UI
 ui <- fluidPage(
