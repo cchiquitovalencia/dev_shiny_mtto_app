@@ -106,7 +106,7 @@ server <- function(input, output) {
                                         ggplot()+
                                         geom_point(aes(periodo, value, color = as.factor(value)), size = 5)+
                                         facet_grid(unidad~.)+
-                                        hrbrthemes::theme_ipsum()+
+                                        #hrbrthemes::theme_ipsum()+
                                         labs(x = "PERIODO", y = "VALOR", col = "MTTO")+
                                         theme(legend.position = "top"),
                                 
@@ -117,7 +117,7 @@ server <- function(input, output) {
                                         ggplot()+
                                         geom_point(aes(periodo, value, color = as.factor(value)), size = 5)+
                                         facet_grid(unidad~.)+
-                                        hrbrthemes::theme_ipsum()+
+                                        #hrbrthemes::theme_ipsum()+
                                         labs(x = "PERIODO", y = "VALOR", col = "OPERA")+
                                         theme(legend.position = "top"),
                                 
